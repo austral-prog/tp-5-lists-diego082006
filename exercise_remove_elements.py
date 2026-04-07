@@ -11,7 +11,5 @@ def remove_elements(lista):
     Returns:
         La lista después de remover los elementos indicados
     """
-    del lista[0]
-    del lista[3]
-    del lista[3]
+    del lista[0:1]
     return lista
